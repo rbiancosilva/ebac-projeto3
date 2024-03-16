@@ -1,0 +1,149 @@
+* {
+    background-color: #F8F8FF;  
+}
+
+header {
+    border-bottom: 1px solid #e2e2e2;
+
+}
+
+.nav-link, h5 {
+    color: rgb(85, 85, 85); 
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar-brand.m-0.p-0:hover {
+    color: black;
+    cursor: default;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: rgb(85, 85, 85); 
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+}
+
+
+header div nav ul {
+    padding-top: 10px;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    background-color: transparent; /* Remove background color */
+    box-shadow: none !important; /* Remove box shadow */
+}
+
+#main-carousel {
+    height: 500px;
+}
+
+.carousel.inner img {
+    max-height: 500px; 
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 66px;
+}
+
+@media screen and (max-width:768px) {
+    #main-carousel {
+        height: 300px;
+    }
+    
+    .carousel.inner img {
+        max-height: 300px; 
+        width: 100%;
+        object-fit: cover;
+    }  
+    
+}
+
+@media screen and (max-width:576px) {
+    #main-carousel {
+        height: 200px;
+    }
+    
+    .carousel.inner img {
+        max-height: 200px; 
+        width: 100%;
+        object-fit: cover;
+    }   
+
+}
+
+@media screen and (max-width:992px) {
+    .text-wrap.col-12.col-lg-5 > p {
+        padding-top: 20px;
+    }
+}
+
+.col-12.col-lg-7 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#more-about-pap, #treatments, #where-to-find-us, #get-in-touch {
+    padding: 66px 0;
+}
+
+.title-section {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 10px;
+    height: auto;
+
+}
+
+
+#where-to-find-us-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#where-to-find-us h2 {
+    padding: 20px;
+}
+
+#where-to-find-us h4 {
+    padding-top: 15px;
+    font-weight:300;
+}
+
+#get-in-touch a {
+    font-size: 20px;
+}
+
+#our-social-media {
+    padding: 10px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.form-control:focus {
+    border: 1px solid black;
+    box-shadow: none;
+}
+
+#get-in-touch button {
+    border: none;
+    border-radius: 5px;
+    background-color: #e4e4e4;
+    width: 80px;
+    padding: 10px 0;
+}
+
+#get-in-touch button:hover {
+    background-color: #b9b9b9;
+}
+
